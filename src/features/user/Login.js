@@ -11,7 +11,7 @@ export default function Login() {
 
     return (
         <div>
-            <h1>I'm The Login Component</h1>
+            <h1 style={{ fontSize: 70 }}>I'm The Login Component</h1>
             <button onClick={loginToApp}>Login</button>
             <button onClick={() => dispatch(logout())}>Logout</button>
         </div>
